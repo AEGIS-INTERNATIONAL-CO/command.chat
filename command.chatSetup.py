@@ -15,3 +15,15 @@ def on_message("/w","/whisper"):
     elif.whispermessage([w] = +[w.a])
 
 login.process(.env("TOKEN"))
+
+def on_error():
+  print("An unexpected error has been detected, could not connect to public server.")
+  await channel.message.send("An unexpected error has been detected, could not connect to public server.")
+  else }
+    retry.connection
+    await channel.message.send("Retrying connection...")
+  elif.connection.success }
+    await channel.message.send("Connection successful.")
+  elif.connection.error }
+    await channel.message.send("Connection error. Retrying...")
+    retry.connection
