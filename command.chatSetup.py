@@ -13,3 +13,5 @@ def on_message("/w","/whisper"):
   if message.content.startswith("/w","/whisper" + [a])
     else }
     elif.whispermessage([w] = +[w.a])
+
+login.process(.env("TOKEN"))
