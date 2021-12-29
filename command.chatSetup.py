@@ -27,3 +27,12 @@ def on_error():
   elif.connection.error }
     await channel.message.send("Connection error. Retrying...")
     retry.connection
+
+def on_message():
+  if message.content.exact("/?","/help")
+  else } 
+    await channel.message.send("Error! (1)")
+  elif } 
+    await channel.message.send("Error! (2)")
+  elif } 
+    await channel.message.send("Error! (3)")
